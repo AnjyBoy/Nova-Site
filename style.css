@@ -1,0 +1,278 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey; */
+    background-color: #C7C3C3;
+    /* border-radius: 100px; */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #FF4500; 
+    height: 80vh;
+    /* border-radius: 10px; */
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+    background: #b30000;  
+} */
+
+body {
+    overflow-x: hidden;
+}
+
+
+
+
+.dropdown1 {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.button1:hover {
+    transform: translateY(-5px);
+    transition: transform 1.5s ease-in-out;
+}
+
+.button1:not(:hover) {
+    transform: translateX(0); 
+    transition: transform 1.5s ease-in-out;
+}
+
+.animate__animated.animate__slideInRight{
+    --animate-duration: 4s;
+}
+
+.animate__animated.animate__slideInLeft{
+    --animate-duration: 4s;
+}
+
+ul.nav-navbar, li .navLink:hover {
+    color: #FFA500!important;
+}
+
+
+
+ul.dropdown-menu, #li:hover {
+    color:black!important;
+}
+
+ul  #li:hover {
+    #img {
+        content: url("./Images/ic--outline-credit-card.png");
+        width: 24px;
+    }
+}
+
+ul  #li:hover {
+    #img1 {
+        content: url("./Images/ep--money.png");
+        width: 24px;
+    }
+}
+
+ul  #li:hover {
+    #img2 {
+        content: url("./Images/mdi--piggy-bank1.png");
+        width: 24px;
+    }
+}
+ul  #li:hover {
+    #img3 {
+        content: url("./Images/ic--outline-add-card1.png");
+        width: 24px;
+    }
+}
+ul  #li:hover {
+    #img4 {
+        content: url("./Images/mdi--dollar1.png");
+        width: 24px;
+    }
+}
+
+
+.hero-img:hover {
+    transform: translateY(-40px);
+    transition: transform 3.5s ease-in-out;
+}
+
+.hero-img:not(:hover) {
+    transform: translateX(0); 
+    transition: transform 3.5s ease-in-out;
+}
+
+
+
+@media screen and (max-width: 767px) {
+    .nav-navbar {
+        width: 100%;    
+    }
+
+    .section1-div div {
+        text-align: center;
+    }
+
+    .section1-div div h2 {
+        font-size: 40px;
+    }
+
+    .section1-div div p {
+        font-size: 14px;
+    }
+
+    .hero-img {
+        margin-top: 50px;
+    }
+
+    .hero-img img {
+        width: 350px;
+    }
+
+    .hero-img1 {
+        margin-top: 50px;
+    }
+
+    .hero-img1 img {
+        width: 350px;
+    }
+
+    .hero-img2 img {
+        width: 350px;
+    }
+
+    .div {
+        margin-top: 50px;
+    }
+
+    .signIn {
+        display: block;
+    }
+
+    .btnNova {
+        margin: 0;
+    }
+
+    .dropdown2 {
+        display: none;
+    }
+
+    .login-div {
+        display: none;
+    }
+    
+}
+
+
+@media (min-width: 768px) and (max-width: 1207px) {
+    .hero-img img {
+        width: 360px;
+    }
+    
+    .signIn {
+        display: block;
+    }
+
+    .btnNova {
+        margin: 0;
+    }
+
+    .dropdown2 {
+        display: none;
+    }
+
+    .login-div {
+        display: none;
+    }
+    
+}
+
+
+@media (min-width: 1208px)  {
+    .nav-logo:hover {
+        transform: scale(1.2);
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .nav-logo:not(:hover) {
+        transform: scale(1.0);
+        transition: transform 0.5s ease-in-out;
+}
+
+    .nav-navbar {
+        width: 50%;
+    }
+
+    .section1-div {
+        width: 68%;
+    }
+
+    .section1-div div {
+        width: 50%;
+    }
+
+    .section1-div div h2{
+        font-size: 50px;
+    }
+
+    .section1-div div p {
+        font-size: 20px;
+    }
+
+    .section1-div1 {
+        width: 68%;
+    }
+
+    .hero-img {
+        padding-left: 100px;
+    }
+
+    .hero-img img {
+        width: 480px;
+    }
+
+    .hero-img1 {
+        padding-left: 100px;
+    }
+
+    .hero-img1 img {
+        width: 480px;
+    }
+
+    .section2-div {
+        width: 32%;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown1:hover .dropdown-content {display: block;}
+
+    .signin {
+        width: 43%;
+    }
+
+    .login-img {
+        width: 595px;
+    }
+}
